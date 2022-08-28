@@ -23,10 +23,10 @@ function NotifyPage(props) {
           onClick={backToPreviousPageHandler}
           sx={{ mr: 2 }}
         >
-          <ReplyAllIcon sx={{ mr: 2, ml: 2 }} /> Click to back
+          <ReplyAllIcon sx={{ mr: 2 }} /> Click to back
         </Button>
         <Button variant="contained" onClick={navToLoginHandler}>
-          <LoginIcon sx={{ mr: 2, ml: 2 }} /> Click to Login
+          <LoginIcon sx={{ mr: 2 }} /> Click to Login
         </Button>
       </div>
     </>
