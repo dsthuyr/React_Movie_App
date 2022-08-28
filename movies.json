@@ -1,0 +1,148 @@
+{
+  "movies": [
+    {
+      "id": "m1",
+      "name": "The Boy",
+      "img": "https://img.youtube.com/vi/K-8VYKUZYiw/0.jpg",
+      "banner": "https://img.youtube.com/vi/K-8VYKUZYiw/maxresdefault.jpg",
+      "link": "https://www.youtube.com/embed/K-8VYKUZYiw",
+      "description": "It is been a year of calm. Homelander is subdued. Butcher works for the government, supervised by Hughie of all people...",
+      "category": "TVSeries"
+    },
+    {
+      "id": "m2",
+      "name": "WandaVision",
+      "img": "https://img.youtube.com/vi/sj9J2ecsSpo/0.jpg",
+      "banner": "https://img.youtube.com/vi/sj9J2ecsSpo/maxresdefault.jpg",
+      "link": "https://www.youtube.com/embed/sj9J2ecsSpo",
+      "description": "Marvel Studios captivating new series WandaVision stars Elizabeth Olsen and Paul Bettany, and marks the first series from Marvel Studios streaming exclusively on Disney+...",
+      "category": "TVSeries"
+    },
+    {
+      "id": "m3",
+      "name": "She Hulk",
+      "img": "https://img.youtube.com/vi/u7JsKhI2An0/0.jpg",
+      "banner": "https://img.youtube.com/vi/u7JsKhI2An0/maxresdefault.jpg",
+      "link": "https://www.youtube.com/embed/u7JsKhI2An0",
+      "description": "Every single episode of She-Hulk: Attorney at Law will have an end-credits scene. The legal action-comedy centers on Jennifer Walters (Tatiana Maslany)...",
+      "category": "TVSeries"
+    },
+    {
+      "id": "m4",
+      "name": "Moon Knight",
+      "img": "https://img.youtube.com/vi/x7Krla_UxRg/0.jpg",
+      "banner": "https://img.youtube.com/vi/x7Krla_UxRg/maxresdefault.jpg",
+      "link": "https://www.youtube.com/embed/x7Krla_UxRg",
+      "description": "Moon Knight follows Steven Grant, a mild-mannered gift-shop employee, who becomes plagued with blackouts and memories of another life...",
+      "category": "TVSeries"
+    },
+    {
+      "id": "m5",
+      "name": "Stranger Thing",
+      "img": "https://img.youtube.com/vi/yQEondeGvKo/0.jpg",
+      "banner": "https://img.youtube.com/vi/yQEondeGvKo/maxresdefault.jpg",
+      "link": "https://www.youtube.com/embed/yQEondeGvKo",
+      "description": "When Joyces 12-year-old son Will goes missing, she launches a terrifying investigation into his disappearance with local authorities... ",
+      "category": "TVSeries"
+    },
+    {
+      "id": "m6",
+      "name": "Thor: Love and Thunder",
+      "img": "https://img.youtube.com/vi/tgB1wUcmbbw/0.jpg",
+      "banner": "https://img.youtube.com/vi/tgB1wUcmbbw/maxresdefault.jpg",
+      "link": "https://www.youtube.com/embed/tgB1wUcmbbw",
+      "description": "The film finds Thor (Chris Hemsworth) on a journey unlike anything he is ever faced  a quest for inner peace...",
+      "category": "Movie"
+    },
+    {
+      "id": "m7",
+      "name": "Doctor Strange 2",
+      "img": "https://img.youtube.com/vi/aWzlQ2N6qqg/0.jpg",
+      "banner": "https://img.youtube.com/vi/aWzlQ2N6qqg/maxresdefault.jpg",
+      "link": "https://www.youtube.com/embed/aWzlQ2N6qqg",
+      "description": "Read allDoctor Strange teams up with a mysterious teenage girl from his dreams who can travel across multiverses, to battle multiple threats...",
+      "category": "Movie"
+    },
+    {
+      "id": "m8",
+      "name": "Spider-Man 3",
+      "img": "https://img.youtube.com/vi/OB3g37GTALc/0.jpg",
+      "banner": "https://img.youtube.com/vi/OB3g37GTALc/maxresdefault.jpg",
+      "link": "https://www.youtube.com/embed/OB3g37GTALc",
+      "description": "Wanting to make his identity a secret, Peter turns to Doctor Strange for help. But when Stranges spell goes haywire, Peter must go up against five deadly new enemies--the Green Goblin...",
+      "category": "Movie"
+    },
+    {
+      "id": "m9",
+      "name": "Black Panther 2",
+      "img": "https://img.youtube.com/vi/RlOB3UALvrQ/0.jpg",
+      "banner": "https://img.youtube.com/vi/RlOB3UALvrQ/maxresdefault.jpg",
+      "link": "https://www.youtube.com/embed/RlOB3UALvrQ",
+      "description": "In Black Panther, TChalla is crowned king of Wakanda following his fathers death, but he is challenged by Killmonger (Jordan),...",
+      "category": "Movie"
+    },
+    {
+      "id": "m10",
+      "name": "Terminator: Dark Fate",
+      "img": "https://img.youtube.com/vi/oxy8udgWRmo/0.jpg",
+      "banner": "https://img.youtube.com/vi/oxy8udgWRmo/maxresdefault.jpg",
+      "link": "https://www.youtube.com/embed/oxy8udgWRmo",
+      "description": "Linda Hamilton (“Sarah Connor”) and Arnold Schwarzenegger (“T-800”) return in their iconic roles in Terminator: Dark Fate, directed by Tim Miller (Deadpool) ...",
+      "category": "Movie"
+    },
+    {
+      "id": "m11",
+      "name": "Luck",
+      "img": "https://img.youtube.com/vi/xSG5UX0EQVg/0.jpg",
+      "banner": "https://img.youtube.com/vi/xSG5UX0EQVg/maxresdefault.jpg",
+      "link": "https://www.youtube.com/embed/xSG5UX0EQVg",
+      "description": "From Apple Original Films and Skydance Animation, Luck is a story about Sam Greenfield: the unluckiest person in the world...",
+      "category": "Cartoon"
+    },
+    {
+      "id": "m12",
+      "name": "The Sea Beast",
+      "img": "https://img.youtube.com/vi/P-E-IGQCsPo/0.jpg",
+      "banner": "https://img.youtube.com/vi/P-E-IGQCsPo/maxresdefault.jpg",
+      "link": "https://www.youtube.com/embed/P-E-IGQCsPo",
+      "description": "In an era when terrifying beasts roamed the seas, monster hunters were celebrated heroes - and none were more beloved than the great Jacob Holland...",
+      "category": "Cartoon"
+    },
+    {
+      "id": "m13",
+      "name": "Turning Red",
+      "img": "https://img.youtube.com/vi/XdKzUbAiswE/0.jpg",
+      "banner": "https://img.youtube.com/vi/XdKzUbAiswE/maxresdefault.jpg",
+      "link": "https://www.youtube.com/embed/XdKzUbAiswE",
+      "description": "Disney and Pixar is “Turning Red” introduces Mei Lee (voice of Rosalie Chiang), a confident, dorky 13-year-old torn between staying her mother is dutiful daughter and the chaos of adolescence...",
+      "category": "Cartoon"
+    },
+    {
+      "id": "m14",
+      "name": "Blue Lock",
+      "img": "https://img.youtube.com/vi/0DgJ45LQPAs/0.jpg",
+      "banner": "https://img.youtube.com/vi/0DgJ45LQPAs/maxresdefault.jpg",
+      "link": "https://www.youtube.com/embed/0DgJ45LQPAs",
+      "description": "After failing to win the World Cup, there's unrest in the Japanese Soccer community. Many of the older patrons of the sport aren't too disturbed by the lack of trophies...",
+      "category": "Anime"
+    },
+    {
+      "id": "m15",
+      "name": "SPY x FAMILY",
+      "img": "https://img.youtube.com/vi/ofXigq9aIpo/0.jpg",
+      "banner": "https://img.youtube.com/vi/ofXigq9aIpo/maxresdefault.jpg",
+      "link": "https://www.youtube.com/embed/ofXigq9aIpo",
+      "description": "Disney and Pixar’s “Turning Red” introduces Mei Lee (voice of Rosalie Chiang), a confident, dorky 13-year-old torn between staying her mother’s dutiful daughter and the chaos of adolescence...",
+      "category": "Anime"
+    },
+    {
+      "id": "m16",
+      "name": "Summer Time Render",
+      "img": "https://img.youtube.com/vi/Js9ZHbAH3bE/0.jpg",
+      "banner": "https://img.youtube.com/vi/Js9ZHbAH3bE/maxresdefault.jpg",
+      "link": "https://www.youtube.com/embed/Js9ZHbAH3bE",
+      "description": "Shinpei Amiyo, who heard the obituary of his childhood friend, Kobune Ushio,He returned to his hometown of Wakayama City, Nittogashima for the first time in two years.Reunion with his family and friends...",
+      "category": "Anime"
+    }
+  ]
+}
