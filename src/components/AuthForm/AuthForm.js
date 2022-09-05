@@ -11,6 +11,7 @@ import axios from "axios";
 import { useNavigate } from "react-router-dom";
 import { useDispatch } from "react-redux";
 import { authActions } from "../../store/auth";
+import AlertModal from "../Modal/AlertModal";
 
 const validationSignin = {
   email: Yup.string().email("Invalid email addresss").required("Required"),
@@ -34,6 +35,9 @@ const validationSignup = {
 };
 
 const AuthForm = () => {
+  const [isOpenModal, setIsOpenModal] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
+
   const [isSignin, setIsSignin] = useState(true);
   const dispatch = useDispatch();
   const navigate = useNavigate();
@@ -72,11 +76,18 @@ const AuthForm = () => {
           })
         );
         navigate(-1);
+        setErrorMessage("");
       })
       .catch((error) => {
-        alert(error.response.data.error.message);
+        // alert(error.response.data.error.message);
+        setIsOpenModal(true);
+        setErrorMessage(error.response.data.error.message);
       });
   };
+  const handleCloseModal = () => {
+    setIsOpenModal(false);
+  };
+
   return (
     <Container maxWidth="xs" sx={{ backgroundColor: "white" }}>
       <Box
@@ -149,7 +160,7 @@ const AuthForm = () => {
                 </Link>
               </Grid>
               <Grid item>
-                <Link onClick={changeAuthForm} variant="body2">
+                <Link href="#" onClick={changeAuthForm} variant="body2">
                   Don't have an account? Sign Up
                 </Link>
               </Grid>
@@ -166,6 +177,9 @@ const AuthForm = () => {
           </Form>
         </Formik>
       </Box>
+      {isOpenModal && (
+        <AlertModal closeModal={handleCloseModal} description={errorMessage} />
+      )}
     </Container>
   );
 };
