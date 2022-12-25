@@ -75,13 +75,13 @@ const AuthForm = () => {
             expirationTime: expirationTime,
           })
         );
-        navigate(-1);
+        navigate("/");
         setErrorMessage("");
       })
       .catch((error) => {
-        // alert(error.response.data.error.message);
         setIsOpenModal(true);
         setErrorMessage(error.response.data.error.message);
+        // setErrorMessage("Account information is incorrect or does not exist");
       });
   };
   const handleCloseModal = () => {
@@ -161,7 +161,9 @@ const AuthForm = () => {
               </Grid>
               <Grid item>
                 <Link href="#" onClick={changeAuthForm} variant="body2">
-                  Don't have an account? Sign Up
+                  {isSignin
+                    ? "Don't have an account? Sign Up"
+                    : "You have an account? Sign In"}
                 </Link>
               </Grid>
             </Grid>
@@ -172,7 +174,7 @@ const AuthForm = () => {
               fullWidth
               sx={{ mt: 3, mb: 2 }}
             >
-              Submit
+              {isSignin ? "Sign In" : "Sign Up"}
             </Button>
           </Form>
         </Formik>

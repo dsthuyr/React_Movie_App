@@ -1,15 +1,5 @@
-@media (max-width: 960px) {
-  .nav_category {
-    display: none;
-  }
-
-  .nav_li_profile {
-    display: none;
-  }
-}
-
 .header {
-  height: 5rem;
+  min-height: 5rem;
   background-color: #14385C;
   display: flex;
   justify-content: space-between;
@@ -27,17 +17,19 @@
 .header button:hover {
   color: white;
   border-bottom: 2px solid #007FFF;
+
 }
 
 a.active button {
   color: white;
   border-bottom: 2px solid #007FFF;
+
 }
 
 .header ul {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 1rem 0;
   display: flex;
   align-items: baseline;
 }
@@ -61,4 +53,11 @@ a.active button {
   font-size: 2rem;
   color: white;
   margin: 0;
+}
+
+@media (max-width: 960px) {
+  .header {
+    flex-direction: column;
+    padding: 1rem 0;
+  }
 }
